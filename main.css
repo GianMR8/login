@@ -1,0 +1,47 @@
+@charest "UTF-8"
+/* CSS Document */
+*{
+    box-sizing; border-box;
+}
+.flex-container {
+    display: flex;
+    background: url("background.png") no-repeat fixed top right;
+    background-size: cover;
+    flex-direction: row;
+    background-color: #004aad;
+}
+
+body{
+    background-color: #004aad;
+}
+
+    #container{
+        margin: 0 auto;
+        width: 767px;  
+    }
+
+    header > h1{
+    text-align: center;
+    color:black;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: #0004ad;
+    padding: 0px 20px;
+    text-decoration-line: underline;
+}
+ul{
+    color: blue;
+    
+}
+
+input{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
