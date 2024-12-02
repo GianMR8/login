@@ -20,11 +20,17 @@ body{
         width: 767px;  
     }
 
-    header > h1{
+    header > h2{
     text-align: center;
     color:black;
     font-size: xx-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    header > h1{
+        text-align: left;
+        color:black;
+        font-size: xx-large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
 }
 nav li {
     float: right;
