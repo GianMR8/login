@@ -32,9 +32,6 @@ body{
         font-size: xx-large;
         font-family: Georgia, 'Times New Roman', Times, serif;
 }
-nav li {
-    float: right;
-}
 
 nav li a {
     display: block;
