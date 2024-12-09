@@ -5,7 +5,6 @@
 }
 .flex-container {
     display: flex;
-    background: url("") no-repeat fixed top right;
     background-size: cover;
     flex-direction: row;
     background-color: #004aad;
@@ -13,7 +12,6 @@
 
 body{
     background-color: skyblue;
-    opacity: 70%;
 }
 
     #container{
@@ -21,17 +19,26 @@ body{
         width: 767px;  
     }
 
-    header > h2{
+    h2{
     text-align: center;
     color:black;
+    font-weight:  400;
+    font-family: "Oswald", sans-serif;
     font-size: xx-large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-    header > h1{
+    h1{
         text-align: left;
         color:black;
+        font-weight:  400;
+        font-family: "Oswald", sans-serif;
         font-size: xx-large;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: left;
+    color:black;
+    font-weight:  400;
+    font-family: "Oswald", sans-serif;
+    font-size: xx-large;
 }
 
 nav li a {
@@ -43,7 +50,7 @@ nav li a {
 
 input{
     color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Oswald", sans-serif;
 }
 
 ul {
